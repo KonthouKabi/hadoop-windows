@@ -14,7 +14,7 @@ This repository is designed to help you practice using **Hadoop** and other Hado
 
 - **Caution:** Hive logs are currently getting printed on the command line, but this will be fixed in future updates.
 
-## Includeda and Tested Versions
+## Included and Tested Versions
 
 - **Hadoop:** 3.3.6
 - **Hive:** 3.1.3
@@ -23,7 +23,7 @@ This repository is designed to help you practice using **Hadoop** and other Hado
 
 ## First Step: Installations and Setups
 
-To install the tools, setup the dependencies and fixing the missing files for get-libs.bat file.
+To install the tools, setup the dependencies and fixing the missing files for **get-libs.bat** file.
 
 
 ## How to Start the Project
