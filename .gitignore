@@ -1,0 +1,14 @@
+java-lib/*
+java8-lib/*
+hadoop-3.3.6/*
+hivelib/*
+hadoop-datanode/*
+hadoop-temp/*
+hive-temp/*
+hive-warehouse/*
+local_files/*
+metastore_db/
+derby.log
+temp
+guidelines.txt
+.gitattributes
