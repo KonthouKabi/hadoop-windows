@@ -1,10 +1,10 @@
 # Hadoop-Windows Practice Repository
 
-This repository is designed to help you practice using **Hadoop** and other Hadoop-dependent tools on Windows. It provides a complete setup that includes all the necessary tools and dependencies, such as **Hadoop**, **Hive**, and **Java**, integrated within the project folder. Currently, **Hive** is integrated, and other tools will be integrated in the future. The core idea behind this repository is to allow beginners to experiment with and understand these tools without the hassle of complex installations and configurations.
+This repository is designed to help you practice using **Hadoop** and other Hadoop-dependent tools on Windows. It aims to provide a complete setup that includes all the necessary tools and dependencies, such as **Hadoop**, **Hive**, and **Java**, integrated within the project folder. Currently, **Hive** is integrated, and other tools will be integrated in the future. The core idea behind this repository is to allow beginners to experiment with and understand these tools without the hassle of complex installations and configurations in Windows environment.
 
 ## Key Features
 
-- **Comprehensive Setup:** Includes all tools and dependencies required for Hadoop, such as **Java**, **Hadoop**, and **Hive**, all bundled within the repository, reducing and simplifying the dependency installation process. The core idea is that all necessary tools and dependencies are bundled within a single project folder. These tools are then called and pointed to each other using simple batch scripts. This way, a beginner can easily understand what's happening in the background while learning high-level tools like **Hadoop**, **HDFS**, **MapReduce**, **Hive**, and more.
+- **Comprehensive Setup:** Includes automated settings to download and setup all tools and dependencies required for Hadoop, such as **Java**, **Hadoop**, and **Hive**, all meant to bundle within the repository, reducing and simplifying the dependency installation process. The core idea is that all necessary tools and dependencies are bundled within a single project folder. These tools are then called and pointed to each other using simple batch scripts. This way, a beginner can easily understand what's happening in the background while learning high-level tools like **Hadoop**, **HDFS**, **MapReduce**, **Hive**, and more.
 
 - **Environment Setup (Handling):** Path settings and configurations are managed through batch files. This approach avoids the hurdles of setting global environment variables and dealing with permission issues in Windows, making the setup process much smoother.
 
@@ -14,12 +14,17 @@ This repository is designed to help you practice using **Hadoop** and other Hado
 
 - **Caution:** Hive logs are currently getting printed on the command line, but this will be fixed in future updates.
 
-## Included Versions
+## Includeda and Tested Versions
 
 - **Hadoop:** 3.3.6
 - **Hive:** 3.1.3
 - **Java for Hadoop:** OpenJDK 11
 - **Java for Hive:** OpenJDK 8
+
+## First Step: Installations and Setups
+
+To install the tools, setup the dependencies and fixing the missing files for get-libs.bat file.
+
 
 ## How to Start the Project
 
@@ -45,5 +50,5 @@ Once you have executed these scripts in the correct order, you'll be ready to ru
 ## Additional Notes
 
 - The repository is designed to work entirely on **Windows** with minimal manual configuration.
-- All dependencies are provided within the project folder itself, so you don't need to worry about downloading or configuring external tools.
+- All dependencies are setup within the project folder itself, so you don't need to much worry about downloading or configuring the dependencies tools.
 - **Future Updates:** More tools will be integrated, and any issues (such as Hive logs printing on the command line) will be addressed in future updates.
