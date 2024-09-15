@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<configuration>
+    <!-- Hive Metastore Configuration -->
+    <property>
+        <name>javax.jdo.option.ConnectionURL</name>
+        <value>jdbc:derby:;databaseName=metastore_db;create=true</value>
+        <description>JDBC connection string for a JDBC metastore</description>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionDriverName</name>
+        <value>org.apache.derby.jdbc.EmbeddedDriver</value>
+        <description>Driver class name for a JDBC metastore</description>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionUserName</name>
+        <value>APP</value>
+        <description>Username to use against metastore database</description>
+    </property>
+
+    <property>
+        <name>javax.jdo.option.ConnectionPassword</name>
+        <value>mine</value>
+        <description>Password to use against metastore database</description>
+    </property>
+
+    <!-- Remove deprecated property -->
+    <!-- <property>
+        <name>hive.use.classpath</name>
+        <value>true</value>
+        <description>Ensures Hive uses the correct classpath settings</description>
+    </property> -->
+
+    <!-- Hive Logging Configuration (Optional) -->
+    <property>
+        <name>hive.log.explain.output</name>
+        <value>true</value>
+        <description>Log detailed explain plans</description>
+    </property>
+
+    <!-- Metastore warehouse directory -->
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>C:/Users/Hp/Downloads/hadoop-windows/hive-warehouse</value>
+        <description>Location of default database for the warehouse</description>
+    </property>
+
+    <!-- Set the default filesystem to be the local filesystem -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>file:///</value>
+    </property>
+</configuration>
