@@ -23,8 +23,9 @@ This repository is designed to help you practice using **Hadoop** and other Hado
 
 ## First Step: Installations and Setups
 
-To install the tools, setup the dependencies and fixing the missing files for **get-libs.bat** file.
+To install the tools, setup the dependencies and fixing the missing files for Windows, first of all run the **get-libs.bat** file.
 
+**Then:**
 
 ## How to Start the Project
 
