@@ -1,4 +1,5 @@
 echo "copying missing files......................."
+COPY .\missing-files\winutils.exe .\hadoop-3.3.6\bin\
 COPY .\missing-files\hive-site.xml .\hivelib\apache-hive-3.1.3-bin\conf\
 COPY .\missing-files\hive-log4j2.properties .\hivelib\apache-hive-3.1.3-bin\conf\
 COPY .\missing-files\hive.bat .\hivelib\apache-hive-3.1.3-bin\bin\
