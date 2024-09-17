@@ -21,6 +21,11 @@ This repository was inially designed to help learners practice using **Hadoop** 
 - **Java for Hadoop:** OpenJDK 11
 - **Java for Hive:** OpenJDK 8
 
+## Clone the Project
+
+```bash
+git clone https://github.com/KonthouKabi/hadoop-windows.git
+```
 ## First Step: Installations and Setups
 
 To install the tools, setup the dependencies and fixing the missing files for Windows, first of all run the **get-libs.bat** file.

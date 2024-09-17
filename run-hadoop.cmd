@@ -1,5 +1,6 @@
 @echo off
 REM Source the environment variables
 call hadoop-path.bat
-
-hadoop fs -cat /uploads/test_table.csv
+REM ****************************** COMMAND SCRIPT *******************************
+REM USE THIS SCRIPT AS YOUR COMMAND INTERFACE
+hadoop fs -ls /
