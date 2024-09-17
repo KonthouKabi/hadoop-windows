@@ -1,6 +1,6 @@
 # Hadoop-Windows Practice Repository
 
-This repository was inially designed to help learners practice using **Hadoop** and other Hadoop-dependent tools on Windows. Now it supports Linux (Ubuntu). Work on Mac is going on. It aims to provide a complete setup that includes all the necessary tools and dependencies, such as **Hadoop**, **Hive**, and **Java**, integrated within the single project folder. Currently, **Hive** is integrated, and other tools will be integrated in the future. The core idea behind this repository is to allow beginners to experiment with and understand these tools without the hassle of complex installations and configurations in Windows environment.
+This repository was inially designed to help learners practice using **Hadoop** and other Hadoop-dependent tools on Windows. Now it supports Linux (Ubuntu). Work on Mac is going on. It aims to provide a complete setup that includes all the necessary tools and dependencies, such as **Hadoop**, **Hive**, and **Java**, integrated within the single project folder. Currently, **Hive** is integrated, and other tools will be integrated in the future. The core idea behind this repository is to allow beginners to experiment with and understand these tools without the hassle of complex installations and configurations in the popular OS environments like those of Windows (originally), linux(Ubuntu) and Mac.
 
 ## Key Features
 
