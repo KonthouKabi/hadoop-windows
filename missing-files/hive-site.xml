@@ -42,7 +42,7 @@
     <!-- Metastore warehouse directory -->
     <property>
         <name>hive.metastore.warehouse.dir</name>
-        <value>C:/Users/Hp/Downloads/hadoop-windows/hive-warehouse</value>
+        <value>_ROOT_PATH_/hadoop-windows/hive-warehouse</value>
         <description>Location of default database for the warehouse</description>
     </property>
 
