@@ -28,8 +28,8 @@ git clone https://github.com/KonthouKabi/hadoop-windows.git
 ```
 ## First Step: Installations and Setups
 
-To install the tools, setup the dependencies and fixing the missing files for Windows, first of all run:
--**get-libs.bat** on Woindows.
+To install the tools, setup the dependencies and fixing the missing files for Windows, first of all run:<br>
+-**get-libs.bat** on Woindows.<br>
 -**get-libs.sh** on Linux (Ubuntu).
 
 **Then:**
