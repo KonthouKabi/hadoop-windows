@@ -60,6 +60,6 @@ The following is the order in which batch files need to be executed to start and
 
 ## Additional Notes
 
-- The repository is designed to work entirely on **Windows** with minimal manual configuration.
+- The repository is designed to work entirely with minimal manual configuration.
 - All dependencies are setup within the project folder itself, so you don't need to much worry about downloading or configuring the dependencies tools.
 - **Future Updates:** More tools will be integrated, and any issues (such as Hive logs printing on the command line) will be addressed in future updates.
