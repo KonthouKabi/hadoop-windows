@@ -28,7 +28,7 @@ git clone https://github.com/KonthouKabi/hadoop-windows.git
 ```
 ## First Step: Installations and Setups
 
-To install the tools, setup the dependencies and fixing the missing files for Windows, first of all run:<br>
+Install the tools and setup the dependencies:<br>
 -**get-libs.bat** on Woindows.<br>
 -**get-libs.sh** on Linux (Ubuntu).
 
@@ -39,21 +39,24 @@ To install the tools, setup the dependencies and fixing the missing files for Wi
 The following is the order in which batch files need to be executed to start and run Hadoop, HDFS, and Hive:
 
 1. **Step 1: Format the NameNode**
-    - Run `format--namenode.bat` to format the NameNode.
+    - Run `format--namenode.bat` to format the  (On Windows only).
 
 2. **Step 2: Start Derby (Hive's default metastore)**
-    - Run `start-derby.bat` to start the Derby database, which acts as the Hive metastore.
+    - Run `start-derby` to start the Derby database, which acts as the Hive metastore (Windows,Linux).
 
 3. **Step 3: Start Hadoop Services**
-    - Run `start-hadoop.bat` to start all necessary Hadoop services.
+    - Run `start-hadoop` to start all necessary Hadoop services (Windows,Linux). <br>
+
+   <i> Once you have executed these scripts in the correct order, you'll be ready to run Hadoop and Hive on your Windows machine using the batch files provided.<i> <br>
 
 4. **Step 4: Run Hadoop Commands**
-    - Run `run-hadoop.bat` to execute Hadoop commands like interacting with HDFS.
+    - Run `run-hadoop.bat` to execute Hadoop commands like interacting with HDFS (on Windows only).<br>
+    -source hadoop-path.sh (Linux). Then run hadoop command directly on termnal
 
 5. **Step 5: Start Hive**
-    - Run `run-hive.bat` to launch Hive and start interacting with the Hive shell.
+    - Run `run-hive.bat` to launch Hive and start interacting with the Hive shell. (on Windows only).<br>
+    - source hive-path.sh (Linux). Then run hive command directly on termnal
 
-Once you have executed these scripts in the correct order, you'll be ready to run Hadoop and Hive on your Windows machine using the batch files provided.
 
 ## Additional Notes
 
