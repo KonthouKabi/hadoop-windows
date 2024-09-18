@@ -47,7 +47,7 @@ The following is the order in which batch files need to be executed to start and
 3. **Step 3: Start Hadoop Services**
     - Run `start-hadoop` to start all necessary Hadoop services (Windows,Linux). <br>
 
-   <i> Once you have executed these scripts in the correct order, you'll be ready to run Hadoop and Hive on your Windows machine using the batch files provided.<i> <br>
+   <i> Once you have executed these scripts in the correct order, you'll be ready to run Hadoop and Hive on your Windows machine using the batch files provided.</i> <br>
 
 4. **Step 4: Run Hadoop Commands**
     - Run `run-hadoop.bat` to execute Hadoop commands like interacting with HDFS (on Windows only).<br>
