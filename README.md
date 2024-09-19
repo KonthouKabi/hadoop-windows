@@ -51,11 +51,11 @@ The following is the order in which batch files need to be executed to start and
 
 4. **Step 4: Run Hadoop Commands**
     - Run `run-hadoop.bat` to execute Hadoop commands like interacting with HDFS (on Windows only).<br>
-    -source hadoop-path.sh (Linux). Then run hadoop command directly on termnal
+    - Run `source hadoop-path.sh` (Linux). Then run hadoop command directly on termnal (Eg. `hadoop fs -ls /` )
 
 5. **Step 5: Start Hive**
     - Run `run-hive.bat` to launch Hive and start interacting with the Hive shell. (on Windows only).<br>
-    - source hive-path.sh (Linux). Then run hive command directly on termnal
+    - `source hive-path.sh` (Linux). Then run hive command directly on termnal (Eg. `hive` then `show databases;`)
 
 
 ## Additional Notes
